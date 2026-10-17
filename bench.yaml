@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/cyrilprasannarajp/tt_MS_Engg_Clg_SPI
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_spi_cpu_top
+  project: SPI-CPU
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 343e0e95b784eeae786eb8e2c3c48628adae0d0f
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_spi_cpu_top
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_spi_cpu_top
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:26:17Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_spi_cpu_top
+- upstream/main
